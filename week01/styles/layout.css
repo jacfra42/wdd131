@@ -9,13 +9,13 @@ header {
 }
 h1 {
     padding: 1rem;
+    min-height: 100px;
 }
 
 nav {
     display: flex;
     background: lightgreen;
     justify-content: space-around;
-    /* width: 100%; */
     padding: 1rem;
 }
 
