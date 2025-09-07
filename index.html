@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Jacob Francis</title>
+    <meta name="description" content="This is the WDD 131 - Dynamic Web Fundamentals home page for Jacob Francis.
+        the page contains helpful links and other biographical info.">
+    <meta name="author" content="Jacob Francis">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>WDD 131 - Jacob Francis</h1>
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="https://www.linkedin.com/in/jacob-francis-19401677/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p2#p2">Scripture</a>
+            <a>Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Jacob Francis</h1>
+        <section class="card">
+            <h2>About Me</h2>
+            <p>
+                My name is Jacob Francis. I was born and raised in Southern California and moved to Utah to attend BYU.
+                After some challenges and tough decisions I stopped attending BYU and got a full-time job. Soon after getting 
+                the job my wife and I had a baby. I've now gotten a few raises and a promotion and decided to continue my
+                education through BYU Pathway in order to get a degree in Software Development.
+            </p>
+            <img src="images/my-profile.webp" alt="Profile">
+
+        </section>
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/">MDN</a></li>
+                <li><a href="https://chatgpt.com/">ChatGPT</a></li>
+                <li><a href="https://codepen.io/">CodePen</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> - Jacob Francis - USA</p>
+        <p>Last Modified: <span id="lastModified"></p>
+    </footer>
 </body>
 </html>

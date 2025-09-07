@@ -19,6 +19,7 @@ nav {
     padding: 1rem;
 }
 
+
 main {
     background: coral;
     grid-column: 1 / 3;

@@ -1,0 +1,56 @@
+body {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+header {
+    grid-column: 1 / 4;
+    background-color: rgb(49, 81, 179);
+    
+}
+
+#course-title {
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    font-size: xx-large;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    background: rgb(238, 183, 143);
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+nav a:hover {
+	text-decoration: overline;
+    color: aliceblue;
+    font-size: large;
+}
+
+main {
+    max-width: 1000px;
+    padding: 1rem;
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+h1 {
+    padding: 2rem;
+}
+
+.card {
+    max-width: 700px;
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+footer {
+    grid-column: 1 / 4;
+    text-align: center;
+    background-color: rgb(238, 183, 143);
+}
