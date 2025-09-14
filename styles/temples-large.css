@@ -1,0 +1,55 @@
+@media (min-width: 600px) {
+    body {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+header {
+    background-color: forestgreen;
+    font-weight: 700;
+    font-size: larger;
+}
+
+main {
+    color: forestgreen;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    /* grid-column: 1 / 4; */
+    text-align: center;
+    background-color: forestgreen;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    padding: 1rem;
+    display: block;
+}
+
+ nav a:hover {
+    background-color: goldenrod;
+}
+
+img {
+    max-width: 200px;
+}
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menu {
+    display: none;
+}
+
+}
