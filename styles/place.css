@@ -1,0 +1,33 @@
+* {
+    text-align: center;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    padding: 1rem;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    padding: 1rem;
+}
+ul {
+    list-style-type: none;
+    justify-content: center;
+}
+
+ul li {
+    text-align: left;
+}
