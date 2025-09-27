@@ -1,14 +1,18 @@
 * {
     text-align: center;
 }
+:root {
+    --main-color: navy;
+    --font: "Lato", sans-serif;
+}
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: var(--font);
     font-weight: 300;
 }
 
 header {
-    background-color: navy;
+    background-color: var(--main-color);
     color: white;
     padding: 1rem;
 }
@@ -24,7 +28,7 @@ main {
 }
 
 footer {
-    background-color: navy;
+    background-color: var(--main-color);
     color: white;
     padding: 1rem;
 }
