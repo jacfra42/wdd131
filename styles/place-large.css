@@ -40,9 +40,8 @@
         color: white;
     }
 
-    .weather img:hover {
-        width: 105%;
-        height: auto;
+    .weather img {
+        display: none;
     }
 
 }
